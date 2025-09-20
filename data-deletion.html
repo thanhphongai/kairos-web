@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xóa Dữ liệu Người dùng - KairosC</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        h1, h2 { color: #333; }
+        .form-container { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input, textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .contact-info { background: #e9ecef; padding: 15px; border-radius: 4px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Yêu cầu Xóa Dữ liệu Người dùng - KairosC</h1>
+    
+    <h2>Quyền xóa dữ liệu của bạn</h2>
+    <p>Theo chính sách quyền riêng tư của chúng tôi, bạn có quyền yêu cầu xóa hoàn toàn dữ liệu cá nhân khỏi hệ thống KairosC.</p>
+    
+    <h2>Dữ liệu sẽ được xóa</h2>
+    <ul>
+        <li>Thông tin tài khoản (email, tên, ảnh đại diện)</li>
+        <li>Dữ liệu đăng nhập và xác thực</li>
+        <li>Lịch sử sử dụng ứng dụng</li>
+        <li>Tất cả dữ liệu liên quan đến tài khoản của bạn</li>
+    </ul>
+
+    <div class="form-container">
+        <h2>Gửi yêu cầu xóa dữ liệu</h2>
+        <form action="mailto:privacy@kairoscapp.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="email">Email tài khoản:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="user_id">User ID (nếu có):</label>
+                <input type="text" id="user_id" name="user_id">
+            </div>
+            
+            <div class="form-group">
+                <label for="reason">Lý do xóa tài khoản:</label>
+                <textarea id="reason" name="reason" rows="4" placeholder="Vui lòng cho biết lý do bạn muốn xóa dữ liệu..."></textarea>
+            </div>
+            
+            <button type="submit">Gửi yêu cầu xóa dữ liệu</button>
+        </form>
+    </div>
+
+    <div class="contact-info">
+        <h2>Thông tin liên hệ</h2>
+        <p><strong>Email:</strong> privacy@kairoscapp.com</p>
+        <p><strong>Thời gian xử lý:</strong> 30 ngày làm việc</p>
+        <p><strong>Hỗ trợ:</strong> support@kairoscapp.com</p>
+    </div>
+
+    <h2>Lưu ý quan trọng</h2>
+    <ul>
+        <li>Việc xóa dữ liệu là <strong>không thể hoàn tác</strong></li>
+        <li>Bạn sẽ không thể khôi phục tài khoản sau khi xóa</li>
+        <li>Quá trình xóa có thể mất đến 30 ngày để hoàn tất</li>
+        <li>Chúng tôi sẽ gửi email xác nhận khi hoàn tất</li>
+    </ul>
+
+    <h2>Quy trình xử lý</h2>
+    <ol>
+        <li>Gửi yêu cầu qua form trên hoặc email</li>
+        <li>Chúng tôi xác minh danh tính của bạn</li>
+        <li>Xóa dữ liệu khỏi tất cả hệ thống</li>
+        <li>Gửi email xác nhận hoàn tất</li>
+    </ol>
+</body>
+</html>
